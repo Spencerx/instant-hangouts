@@ -90,7 +90,7 @@
   // Default render mode. Requires publisher_id, room_id, and topic. Choices are
   // 'hangout' for widget that supports rooms and 'createhangout' for plain
   // button with no room support.
-  var DEFAULT_RENDER = 'hangout';
+  var DEFAULT_RENDER = 'createhangout';
   // Default topic, displayed in the Hangout and in the widget (but not button).
   var DEFAULT_TOPIC = 'Instant Hangout';
   // Default width in pixels if render is 'createhangout'. Ignored if render is

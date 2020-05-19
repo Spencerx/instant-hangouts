@@ -16,8 +16,7 @@ The
 rich but requires a bit of fiddling to get details right. Instant Hangouts is a
 thin wrapper that handles a bunch of the details for you:
 
-1. By default we display a Hangout name and information about the participants,
-rather than just a button to start a new Hangout.
+1. By default, we display a button to start a new Hangout.
 1. The Google API is loaded asynchronously to keep your pages fast
 1. Configuration is very simple: just add attributes to your `<div>`.
 
@@ -64,7 +63,7 @@ Widget mode looks like this:
 
 ![default hangout](images/default_hangout.png)
 
-It is used by default, and can be explicitly selected by setting `render` to
+It can be explicitly selected by setting `render` to
 `hangout` in your HTML:
 
 ```html
@@ -83,7 +82,7 @@ Button mode looks like this:
 
 ![button hangout](images/button_hangout.png)
 
-It can be selected with the following HTML:
+It is used by default and can be selected with the following HTML:
 
 ```html
 <div class='instanthangouts' render='createhangout'></div>
